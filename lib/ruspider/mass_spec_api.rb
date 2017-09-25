@@ -7,6 +7,7 @@ module Ruspider
   # MassSpec API: http://www.chemspider.com/MassSpecAPI.asmx
   module MassSpecAPI
     include XmlUtils
+
     API = 'MassSpecAPI.asmx'
 
     FIELDS = {

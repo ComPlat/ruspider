@@ -3,6 +3,8 @@
 module Ruspider
   # ChemSpider Compound Data container and parser
   class Compound
+    attr_reader :csid
+
     def initialize(csid, cs)
       @csid = csid
       @cs = cs
